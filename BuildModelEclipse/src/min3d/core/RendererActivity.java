@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 
 /**
  * Extend this class when creating your min3d-based Activity. 
@@ -178,4 +179,9 @@ public class RendererActivity extends Activity implements ISceneController
     {
     	return _updateSceneRunnable;
     }
+
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
 }
