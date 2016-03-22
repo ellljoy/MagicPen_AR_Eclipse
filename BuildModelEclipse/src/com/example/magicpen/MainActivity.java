@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
             	// Switch to PageB
-                Intent intent = new Intent(MainActivity.this, SwiptPages.class);
+                Intent intent = new Intent(MainActivity.this, Instruction.class);
                 startActivity(intent);
                 MainActivity.this.finish();
             }

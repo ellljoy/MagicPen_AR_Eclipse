@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.Button;
 
 
-public class SwiptPages extends Activity {
+public class Instruction extends Activity {
 
     private ImageView btn_play2;
 
@@ -29,9 +29,9 @@ public class SwiptPages extends Activity {
             @Override
             public void onClick(View v) {
             	// Switch to PageB
-                Intent intent = new Intent(SwiptPages.this, firstpage.class);
+                Intent intent = new Intent(Instruction.this, firstpage.class);
                 startActivity(intent);
-                SwiptPages.this.finish();
+                Instruction.this.finish();
             }
 
         });
@@ -62,7 +62,7 @@ public class SwiptPages extends Activity {
 
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
-            Context context = SwiptPages.this;
+            Context context = Instruction.this;
             ImageView imageView = new ImageView(context);
 //            int padding = context.getResources().getDimensionPixelSize(
 //                    R.dimen.activity_horizontal_margin);
